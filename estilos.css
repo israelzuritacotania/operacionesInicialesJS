@@ -1,0 +1,59 @@
+.datos {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    background-image: url(calc.JPG);
+    background-size: 150%;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: darkgrey;
+   
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 94%;
+    border-radius: 8px;
+    border: 2px solid rgb(97, 39, 63);
+}
+
+label{
+    background-color: rgb(231, 243, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 4px;
+}
+
+button {
+    
+    margin: 15px 0;
+    padding: 10px;
+    width: 32%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+}
+
+
+
+.p {
+    margin-top: 20px;
+    border: 3px solid orange;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color:greenyellow;
+    text-align: center;
+    font-family:monospace;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}

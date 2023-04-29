@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Calculadora</title>
+	    <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <form id="formulario">
+            <label for="numero1">Primer número:</label>
+            <input type="number" id="num1" name="num1" required placeholder="Coloque un número, ej: 2">
+
+            <label for="numero2">Segundo número:</label>
+            <input type="number" id="num2" name="num2" required placeholder="Coloque un número, ej: 4">
+
+            <div>
+                <button type="button" id="resta" >RESTAR</button>
+                <button type="button" id="multiplicar">MULTIPLICAR</button>
+                <button type="button" id="potencia">POTENCIA</button>
+            </div>
+        </form>
+        <script src="operacion.js"></script>
+    </body>
+</html>
